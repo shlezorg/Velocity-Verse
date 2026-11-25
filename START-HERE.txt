@@ -1,0 +1,24 @@
+VELOCITY VERSE — QUICK START FOR WINDOWS
+
+1. Open this folder in VS Code.
+2. Open PowerShell terminal and run:
+   npm install
+   Copy-Item .env.example .env.local
+3. Open .env.local and change:
+   AUTH_SECRET = unique random long string
+   ADMIN_EMAIL = your login email address
+   ADMIN_PASSWORD = your strong password (12+ characters)
+4. Run:
+   npm run admin:reset
+   npm run dev
+5. Visit:
+   http://localhost:3000
+   http://localhost:3000/admin/login
+
+Inside Studio:
+- New Story Composer or Fast Dispatch
+- Upload up to 10 photos from device in Story photo gallery
+- Reorder, set cover, save/publish
+- Click next arrow on your published article's photo gallery
+
+See README.md for backups and production deployment requirements.
